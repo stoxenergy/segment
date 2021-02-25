@@ -1,1 +1,9 @@
-/*  https://api.segment.com/:splat  200
+[[redirects]]
+  from = "/*"
+  to = "https://api.segment.com/:splat"
+  status = 200
+  force = true
+  conditions = {Role = ["admin", "cms"]}
+  [redirects.headers]
+    X-From = "Netlify"
+    X-Api-Key = "some-api-key-string"
