@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://api.segment.com/:splat"
+  to = "https://cdn.segment.com/:splat"
   status = 200
   force = true
   conditions = {Role = ["admin", "cms"]}
